@@ -748,7 +748,7 @@
        
        $("#send_quote").click(()=>{
         const emailData = {
-          to: 'oficina@orbishn.com',
+          to: $("#customer_name").val(),
           subject: 'Necesito una cotización',
           message: $("#customer_msg").val()
         };
